@@ -159,3 +159,85 @@ header {
   border: 0;
   border-radius: 5px;
 }
+
+/* footer start  */
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  margin: 130px 200px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-description {
+  margin-top: 130px;
+}
+
+.desc-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.desc-subtitle {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.email,
+.phone {
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.icon-container {
+  margin-bottom: 200px;
+}
+
+.facebook {
+  color: #3b5998;
+  margin-right: 15px;
+  font-size: 45px;
+}
+
+.twitter {
+  color: #00acee;
+  margin-right: 15px;
+  font-size: 45px;
+}
+
+.youtube {
+  color: #ff0000;
+  font-size: 45px;
+}
+
+.contact-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-field {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  background-color: #ffffff;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+}
