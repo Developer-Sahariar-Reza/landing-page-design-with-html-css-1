@@ -126,12 +126,49 @@ header {
   text-align: center;
 }
 
+/* faq section start  */
+
+.faq {
+  margin: 120px 200px;
+}
+
+.faq-title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.faq-item {
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.faq-ques {
+  background-color: #000000;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.faq-ans {
+  background-color: #b7bbbc;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.faq-list > li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
 /* gradient section start  */
 .gradient {
   height: 300px;
   width: 1140px;
   margin: 100px auto;
-  background-image: linear-gradient(to right, #f15b22, #ffffff00),
+  background-image: linear-gradient(to right, #4b4b4b, #ffffff00),
     url("../images/watch.png");
   border-radius: 8px;
 }
@@ -152,7 +189,7 @@ header {
 
 .gradient-button {
   background-color: #fff;
-  color: #f15b22;
+  color: #4b4b4b;
   font-size: 20px;
   font-weight: 600;
   padding: 20px 25px;
@@ -192,7 +229,7 @@ header {
 .email,
 .phone {
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   color: #fff;
 }
 
@@ -234,7 +271,7 @@ header {
 
 .contact-btn {
   background-color: #ffffff;
-  color: #f15b22;
+  color: #4b4b4b;
   font-size: 20px;
   font-weight: 600;
   padding: 15px 25px;
